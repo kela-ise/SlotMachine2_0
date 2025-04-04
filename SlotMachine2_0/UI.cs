@@ -8,11 +8,10 @@ namespace SlotMachine2_0
 {
     public static class UI
     {
-
         public static void DisplayWelcomeMessage(int budget)
         {
             Console.WriteLine("\nThis is a Slot Machine Game!");
-           // Console.WriteLine($"You have ${budget} in your account");
+            // Console.WriteLine($"You have ${budget} in your account");
         }
 
         public static int GetWager(int budget)
@@ -78,7 +77,6 @@ namespace SlotMachine2_0
         {
             Console.WriteLine("\nGame Over! You're out of money");
         }
-
-
     }
 }
+

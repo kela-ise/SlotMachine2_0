@@ -8,7 +8,6 @@ namespace SlotMachine2_0
 {
     public static class Constant
     {
-
         public const int SLOT_ROWS = 3;
         public const int SLOT_COLUMNS = 3;
         public const int LOWER_LIMIT = 1;

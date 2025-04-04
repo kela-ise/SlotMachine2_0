@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-
             int budget = Constant.INITIAL_BUDGET;   // Player's initial budget
             Random random = new Random(); // Random number generator for slot machine spins
             int[,] slotGrid = new int[Constant.SLOT_ROWS, Constant.SLOT_COLUMNS]; // 3x3 grid representing the slot machine
@@ -35,7 +34,6 @@
                     break;
                 }
             }
-
         }
     }
 }
